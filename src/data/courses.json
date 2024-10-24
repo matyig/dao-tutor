@@ -1,0 +1,223 @@
+{
+  "courses": [
+    {
+      "id": "c1",
+      "title": "Blokklánc Alapok",
+      "description": "Ismerje meg a blokklánc technológia alapvető koncepcióit és alkalmazásait.",
+      "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&q=80&w=2832",
+      "duration": "4 hét",
+      "level": "Kezdő",
+      "enrolled": false,
+      "completed": false,
+      "points": 100,
+      "lessons": [
+        {
+          "id": "l1",
+          "title": "Mi az a Blokklánc?",
+          "content": "A blokklánc egy elosztott digitális főkönyv, amely az adatokat blokkokban tárolja, amelyek időrendi sorrendben kapcsolódnak egymáshoz és kriptográfiával vannak biztosítva. A hagyományos adatbázisokkal ellentétben a blokklánc decentralizált, ami azt jelenti, hogy egyetlen entitás sem rendelkezik teljes ellenőrzéssel a hálózat felett."
+        },
+        {
+          "id": "l2",
+          "title": "Hogyan Működnek a Blokkok?",
+          "content": "Minden blokk tranzakciós adatokat, időbélyeget és az előző blokk kriptográfiai hash-ét tartalmazza. Ez egy törhetetlen láncot hoz létre, ahol bármely blokk módosítása az összes következő blokk megváltoztatását igényelné, így a rendszer rendkívül biztonságos és hamisíthatatlan."
+        },
+        {
+          "id": "l3",
+          "title": "Konszenzus Mechanizmusok",
+          "content": "A konszenzus mechanizmusok biztosítják, hogy a hálózat összes csomópontja egyetértsen a blokklánc érvényes állapotában. Népszerű mechanizmusok közé tartozik a Bitcoin által használt Proof of Work (PoW) és az Ethereum 2.0 által használt Proof of Stake (PoS), mindegyiknek megvannak a saját előnyei és hátrányai."
+        },
+        {
+          "id": "l4",
+          "title": "Nyilvános vs Privát Blokkláncok",
+          "content": "A nyilvános blokkláncok, mint a Bitcoin, nyílt hálózatok, ahol bárki részt vehet, míg a privát blokkláncok csak az engedélyezett résztvevők számára korlátozottak. A hibrid megoldások, az úgynevezett konzorciumi blokkláncok, mindkettő elemeit ötvözik specifikus üzleti felhasználási esetekhez."
+        },
+        {
+          "id": "l5",
+          "title": "Valós Alkalmazások",
+          "content": "A kriptovalutákon túl a blokklánc technológia lehetővé teszi az ellátási lánc nyomon követését, a digitális személyazonosság-kezelést, a decentralizált pénzügyeket (DeFi) és még sok mást. A közvetítők nélküli bizalom megteremtésének képessége forradalmasítja a különböző iparágakat."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Mi a fő jellemző, ami megkülönbözteti a blokkláncot a hagyományos adatbázisoktól?",
+          "options": [
+            "Táblákban tárolja az adatokat",
+            "Decentralizált",
+            "Gyorsabb",
+            "Drágább"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q2",
+          "question": "Mit tartalmaz egy blokk a blokkláncban?",
+          "options": [
+            "Csak tranzakciós adatokat",
+            "Csak időbélyegeket",
+            "Tranzakciós adatokat, időbélyeget és az előző blokk hash-ét",
+            "Csak a küldő címét"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": "q3",
+          "question": "Melyik konszenzus mechanizmust használja a Bitcoin?",
+          "options": [
+            "Proof of Stake",
+            "Proof of Work",
+            "Proof of Authority",
+            "Proof of History"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "title": "Okosszerződés Fejlesztés",
+      "description": "Sajátítsa el a biztonságos és hatékony okosszerződések írásának művészetét.",
+      "image": "https://images.unsplash.com/photo-1639322537228-f710d846310a?auto=format&fit=crop&q=80&w=2832",
+      "duration": "6 hét",
+      "level": "Középhaladó",
+      "enrolled": false,
+      "completed": false,
+      "points": 150,
+      "lessons": [
+        {
+          "id": "l1",
+          "title": "Bevezetés az Okosszerződésekbe",
+          "content": "Az okosszerződések olyan önvégrehajtó szerződések, amelyek feltételei közvetlenül kódba vannak írva. Automatikusan végrehajtják és érvényesítik a felek közötti megállapodásokat közvetítők nélkül, lehetővé téve a bizalommentes tranzakciókat a blokkláncon."
+        },
+        {
+          "id": "l2",
+          "title": "Solidity Alapok",
+          "content": "A Solidity az Ethereum okosszerződések elsődleges programozási nyelve. Statikusan típusos, támogatja az öröklődést, könyvtárakat és komplex felhasználói típusokat, kifejezetten az Ethereum Virtual Machine-en (EVM) futó szerződések írására tervezték."
+        },
+        {
+          "id": "l3",
+          "title": "Biztonsági Legjobb Gyakorlatok",
+          "content": "Az okosszerződések biztonsága kulcsfontosságú, mivel a szerződések megváltoztathatatlanok a telepítés után. Gyakori sebezhetőségek közé tartoznak az újbelépési támadások, egész szám túlcsordulás/alulcsordulás és a front-running. A bevált minták követése és alapos auditok végzése elengedhetetlen."
+        },
+        {
+          "id": "l4",
+          "title": "Gas Optimalizálás",
+          "content": "A gas az Ethereumon végrehajtott műveletek számítási költsége. A gas-használat optimalizálása hatékony kódmintákkal, megfelelő adatstruktúrákkal és minimális tárolási műveletekkel kulcsfontosságú a költséghatékony okosszerződésekhez."
+        },
+        {
+          "id": "l5",
+          "title": "Tesztelés és Telepítés",
+          "content": "A telepítés előtt elengedhetetlen az átfogó tesztelés olyan keretrendszerekkel, mint a Hardhat vagy Truffle. Ez magában foglalja az egységteszteket, integrációs teszteket és különböző hálózati feltételek szimulációját a szerződés megbízhatóságának biztosítása érdekében."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Mi az okosszerződések fő célja?",
+          "options": [
+            "Kriptovaluta tárolása",
+            "Szerződések automatikus végrehajtása közvetítők nélkül",
+            "Új blokkláncok létrehozása",
+            "Tokenek bányászata"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q2",
+          "question": "Melyik programozási nyelvet használják elsősorban az Ethereum okosszerződésekhez?",
+          "options": [
+            "JavaScript",
+            "Python",
+            "Solidity",
+            "Ruby"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": "q3",
+          "question": "Mi a gas az Ethereumban?",
+          "options": [
+            "Egy kriptovaluta típus",
+            "Egy okosszerződés keretrendszer",
+            "A műveletek számítási költsége",
+            "Egy tesztkörnyezet"
+          ],
+          "correctAnswer": 2
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "title": "DAO Irányítás",
+      "description": "A decentralizált autonóm szervezetek és irányításuk megértése.",
+      "image": "https://images.unsplash.com/photo-1639762681057-408e52192e55?auto=format&fit=crop&q=80&w=2832",
+      "duration": "3 hét",
+      "level": "Haladó",
+      "enrolled": false,
+      "completed": false,
+      "points": 200,
+      "lessons": [
+        {
+          "id": "l1",
+          "title": "Mi az a DAO?",
+          "content": "A Decentralizált Autonóm Szervezet (DAO) olyan szervezet, amelyet átlátható számítógépes programokba kódolt szabályok képviselnek, a szervezet tagjai irányítják, és nem befolyásolja központi vezetés. A DAO-k blokklánc technológián működnek, lehetővé téve az átlátható és automatizált döntéshozatalt."
+        },
+        {
+          "id": "l2",
+          "title": "Irányítási Tokenek",
+          "content": "Az irányítási tokenek szavazati jogot biztosítanak tulajdonosaiknak a DAO-ban. A token tulajdonosok javaslatokat tehetnek és szavazhatnak a protokoll változtatásairól, kincstárkezelésről és más fontos döntésekről. A tokenek száma gyakran meghatározza a szavazati erőt."
+        },
+        {
+          "id": "l3",
+          "title": "Javaslati Mechanizmusok",
+          "content": "A DAO-kban a javaslatok strukturált folyamatot követnek: benyújtás, megvitatás, szavazás és végrehajtás. A javaslatok benyújtásához minimális token-tulajdon lehet szükséges, és a szavazási időszakok általában rögzítettek a tisztességes részvétel biztosítása érdekében."
+        },
+        {
+          "id": "l4",
+          "title": "Kincstárkezelés",
+          "content": "A DAO-k gyakran jelentős kincstári alapokat kezelnek. A megfelelő kezelés magában foglalja a diverzifikációt, kockázatértékelést és átlátható elosztást közösségi szavazás útján. A többaláírásos tárcák és időzárak további biztonsági rétegeket adnak."
+        },
+        {
+          "id": "l5",
+          "title": "Jogi Megfontolások",
+          "content": "A DAO-k jogi státusza joghatóságonként változik. Egyes régiók már elismerik a DAO LLC-ket, míg mások még fejlesztik a keretrendszereket. Az értékpapír-törvényeknek és egyéb szabályozásoknak való megfelelés kulcsfontosságú a DAO működéséhez."
+        }
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Mi határozza meg a DAO-t?",
+          "options": [
+            "Központi vezetés",
+            "Átlátható programokba kódolt szabályok",
+            "Hagyományos vállalati struktúra",
+            "Fizikai irodahelyek"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q2",
+          "question": "Mi az irányítási tokenek elsődleges célja?",
+          "options": [
+            "Tranzakciós díjak fizetése",
+            "Érték tárolása",
+            "Szavazati jog biztosítása a tulajdonosoknak",
+            "Új DAO-k létrehozása"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": "q3",
+          "question": "Hogyan kezelik általában egy DAO kincstárát?",
+          "options": [
+            "Egyetlen adminisztrátor által",
+            "Közösségi szavazással",
+            "Hagyományos bank által",
+            "Felügyelet nélkül"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    }
+  ]
+}

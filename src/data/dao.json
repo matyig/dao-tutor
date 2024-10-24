@@ -1,0 +1,52 @@
+{
+  "proposals": [
+    {
+      "id": "p1",
+      "title": "Következő Tanfolyam Hozzáadása",
+      "description": "Melyik tanfolyamot adjuk hozzá következőként a tananyagunkhoz?",
+      "options": [
+        "Zero Knowledge Proofs: Haladó Kriptográfia",
+        "DeFi Alapok: A Decentralizált Pénzügyek Megértése",
+        "Web3 Játékfejlesztés",
+        "Blokkláncok Közötti Átjárhatóság"
+      ],
+      "votes": {},
+      "votePower": {},
+      "status": "active",
+      "endDate": "2024-04-01",
+      "type": "course"
+    },
+    {
+      "id": "p2",
+      "title": "Közösségi Esemény Tervezése",
+      "description": "Milyen típusú eseményt szervezzünk a közösségünknek a következő hónapban?",
+      "options": [
+        "Hackathon: Építsd Meg az Első DAO-dat",
+        "Web3 Állásböze",
+        "Blokklánc Biztonsági Workshop",
+        "NFT Művészeti Kiállítás"
+      ],
+      "votes": {},
+      "votePower": {},
+      "status": "active",
+      "endDate": "2024-03-25",
+      "type": "event"
+    },
+    {
+      "id": "p3",
+      "title": "Platform Funkció Prioritás",
+      "description": "Melyik funkciót fejlesszük következőként a tanulási platformhoz?",
+      "options": [
+        "Társak Közötti Tanulási Csoportok",
+        "Interaktív Kód Játszótér",
+        "AI-alapú Tanulási Asszisztens",
+        "Valós Idejű Mentorálás"
+      ],
+      "votes": {},
+      "votePower": {},
+      "status": "active",
+      "endDate": "2024-03-30",
+      "type": "other"
+    }
+  ]
+}
